@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Grid</title>
+    <script src=""></script>
+
+    <style>
+        .wrapper {
+            display: grid;
+            justify-content: center;
+            background-color: rgb(63, 167, 133);
+            
+        }
+
+        .wrapper>div {
+            background: rgb(133, 213, 205);
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: rgb(159, 225, 215);
+        }
+
+        .box1 {}
+
+        .box2 {}
+
+        .box3 {}
+
+        .box4 {}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box box1">Box 1
+            <img src="https://media.giphy.com/media/AuyJwYpRJtmBG/giphy.gif" alt="">
+        </div>
+        <div class="box box2">Box2
+            <img src="https://media.giphy.com/media/7jLbFT4E6fKRa/giphy.gif" alt="">
+        </div>
+
+        <div class="box box3">Box3
+            <img src="https://media.giphy.com/media/K5ja6MCPjHBa8/giphy.gif" alt="">
+        </div>
+
+        <div class="box box4">Box 4
+            <img src="https://media.giphy.com/media/A5oy3hZ3SqThm/giphy.gif" alt="">
+        </div>
+        <div class="box box5">Box 5
+            <img src="https://media.giphy.com/media/SjnN39yJEfEkw/giphy.gif" alt="">
+        </div>
+        <div class="box box6">Box6
+            <img src="https://media2.giphy.com/media/10dXd0Y4uBk304/giphy.gif" alt="">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
